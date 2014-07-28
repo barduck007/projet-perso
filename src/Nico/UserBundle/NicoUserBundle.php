@@ -1,6 +1,6 @@
 <?php
 
-namespace Nico\Bundle\UserBundle;
+namespace Nico\UserBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

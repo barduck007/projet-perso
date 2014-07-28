@@ -1,6 +1,6 @@
 <?php
 
-namespace Nico\Bundle\UserBundle\Tests\Controller;
+namespace Nico\UserBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

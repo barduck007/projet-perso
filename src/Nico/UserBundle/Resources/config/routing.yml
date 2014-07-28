@@ -1,0 +1,3 @@
+nico_user_homepage:
+    path:     /mon-compte/accueil
+    defaults: { _controller: NicoUserBundle:Default:accuel }

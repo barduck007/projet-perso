@@ -1,6 +1,6 @@
 <?php
 
-namespace Nico\Bundle\UserBundle\DependencyInjection;
+namespace Nico\UserBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

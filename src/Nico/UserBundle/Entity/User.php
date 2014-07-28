@@ -1,6 +1,6 @@
 <?php
 
-namespace Nico\Bundle\UserBundle\Entity;
+namespace Nico\UserBundle\Entity;
 
 use FOS\UserBundle\Model\User as BaseUser;
 

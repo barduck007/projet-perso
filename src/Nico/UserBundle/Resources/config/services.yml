@@ -1,5 +1,5 @@
 parameters:
-#    nico_user.example.class: Nico\Bundle\UserBundle\Example
+#    nico_user.example.class: Nico\UserBundle\Example
 
 services:
 #    nico_user.example:
