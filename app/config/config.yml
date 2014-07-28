@@ -2,6 +2,10 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
 
+    - { resource: externals/fosUserBundle.yml }
+    - { resource: externals/liipThemeBundle.yml }
+    - { resource: externals/sonataBundles.yml }
+
 framework:
     #esi:             ~
     #translator:      { fallback: "%locale%" }
@@ -67,14 +71,3 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
-
-fos_user:
-    db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
-    firewall_name: main
-    user_class: Nico\Bundle\UserBundle\Entity\User
-
-sonata_block:
-    default_contexts: [cms]
-    blocks:
-        sonata.admin.block.admin_list:
-            contexts:   [admin]

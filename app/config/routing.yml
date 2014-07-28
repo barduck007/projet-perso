@@ -1,6 +1,12 @@
+nico_blog:
+    resource: "@NicoBlogBundle/Resources/config/routing.xml"
+    prefix:   /
+
 nico_user:
     resource: "@NicoUserBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /mon-compte
+
+###############################################################################
 
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
@@ -20,3 +26,9 @@ fos_user_resetting:
 fos_user_change_password:
     resource: "@FOSUserBundle/Resources/config/routing/change_password.xml"
     prefix: /profile
+
+###############################################################################
+
+liip_theme:
+    resource: "@LiipThemeBundle/Resources/config/routing.xml"
+    prefix: /theme

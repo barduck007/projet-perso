@@ -24,7 +24,11 @@ class AppKernel extends Kernel
             new Sonata\AdminBundle\SonataAdminBundle(),
 
             new \FOS\UserBundle\FOSUserBundle(),
-            new Nico\Bundle\UserBundle\NicoUserBundle(),
+
+            new Liip\ThemeBundle\LiipThemeBundle(),
+
+            new Nico\UserBundle\NicoUserBundle(),
+            new Nico\BlogBundle\NicoBlogBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
