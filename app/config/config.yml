@@ -5,10 +5,11 @@ imports:
     - { resource: externals/fosUserBundle.yml }
     - { resource: externals/liipThemeBundle.yml }
     - { resource: externals/sonataBundles.yml }
+    - { resource: externals/sonataBundles.yml }
 
 framework:
     #esi:             ~
-    #translator:      { fallback: "%locale%" }
+    translator:      { fallback: "%locale%" }
     secret:          "%secret%"
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
